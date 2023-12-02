@@ -1,0 +1,60 @@
+
+@import url("./benz5&6.css");
+.e1{
+    background-image: url("./benzimg2.avif");
+    background-size: cover;
+    height: 600px;
+    
+    
+
+}
+.e2{
+    border: 1px solid rgba(0, 0, 0, 0);
+    height: 70px;width: 70px;
+    position: fixed;
+    left: 1400px;
+    top: 620px;
+    font-size: 40px;
+    color:white;background-color: rgba(0, 0, 0, 0.815);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.e3{
+
+    color: white;
+    position: absolute;
+    left: 50px;
+    top: 391px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.e4{
+    height: 600px;
+    background-image: linear-gradient(to right,black , rgba(255, 255, 255, 0.077));
+    
+    
+}
+.e5{
+    color: white;
+    position: absolute;
+    left: 50px;
+    top: 520px;
+}
+.e6{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(12, 104, 140);
+    left: 50px; top: 572px;
+    color: white;
+    font-size:10px;
+    
+}
+
+

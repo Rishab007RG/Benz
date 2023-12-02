@@ -1,0 +1,54 @@
+@import url("./benz7&8&9.css");
+#F1{
+border: 1px solid white;
+position: absolute;
+left: 50px;
+top: 890px;
+font-size: 20px;
+color:  rgba(128, 128, 128, 0.964);
+}
+#G1{
+    border: 2px white solid;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+#g1{
+    border: 1px white solid ;
+    height: 400px;width: 250px;
+}
+
+#g11{
+    border: 1px white solid;
+    height: 185px;width: 250px;
+}
+.g1a{
+    background-image: url("https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_469564746.component.damq6.3369809991451.png/simple_teaser_a_45.png");
+    background-size: cover;
+}
+.g2a{
+    background-image: url("https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_536358667.component.damq6.3352550160800.jpg/MB_Online_Showroom_Image_Mobile.jpg");
+    background-size: cover;
+}
+.g3a{
+     background-image: url("https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_2_254926509.component.damq2.3314299272889.jpg/Pre-Owned%20cars%20Mobile%20Banner.jpg");
+    background-size: cover;
+}
+.g4a{
+    background-image: url("https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_1.component.damq6.3339594823784.jpg/GLB_MBC_our.jpg");
+    background-size: cover;
+}
+.but{
+    border: 1px solid white;
+   background-color:  rgb(40, 163, 211);
+    color: white;
+    border-radius: 5px;
+    width: 200px;height: 40px;
+   font-weight: 500;
+   position: relative;
+   
+}
+
+

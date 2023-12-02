@@ -1,0 +1,87 @@
+ <div id="I7B"></div>
+        <div id="I7A">
+       <div id="I7a"> <div class="i2a"><label for="name"><h1 class="ih1"><section>Fuel Type</section></h1></label>
+       <h4 class="ih4"><input type="checkbox">Electric</h4>
+       <h4 class="ih4"><input type="checkbox">Plug-in-hybride</h4> <br>
+    <h1 class="ih1"><span>Bodytype</span></h1>
+    <h4 class="ih4">Limousine</h4>
+    <h4 class="ih4">SUV Range</h4>
+    <h4 class="ih4">Hatchback</h4>
+    <h4 class="ih4">Coupés</h4>
+    <h4 class="ih4">Cabriolets / Roadsters</h4><br>
+    <h4 class="ih4">See All</h4>
+    </div></div>
+<div id="I7B"></div>
+
+
+
+
+....................................CSS..................................
+#I7{
+    border: 1px solid black ;
+    height: 70px;
+    position: fixed;
+    
+}
+.i1a{
+    border: solid 1px black;
+    width: 1500px;height: 70px;
+    display: flex;
+    position: sticky;
+    left: 30px;
+    top: 50px;
+    
+    
+}
+.i1{
+    border: 1px solid black;
+    width: 150px;height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.i2a{
+    border: 1px solid black;
+    width: 300px;height: 500px;
+    position: sticky;
+    left: 50px;
+    top: 50px;
+    font-size: 15px;
+    color: rgb(91, 89, 89);
+    :hover{
+        color:   rgb(40, 163, 211);
+    }
+    position: sticky;
+}
+.ih1{
+:hover{
+    color:  rgb(91, 89, 89);
+}
+}
+#I7a{
+    border: 1px solid black;
+    width: 300px;height: 500px;
+    position: sticky;
+    left: 50px;
+    top: 50px;
+    position: sticky;
+}
+#I7B{
+    border: 1px solid black;
+    width: 1650px;height: 800px;
+    position: sticky;
+    top: -454px;
+    left: 449px;
+}
+.i3a{
+border: 1px solid black;
+width: 1000px;height: 500px;
+position: relative;
+top: -450px;
+left: 450px;
+}
+ #I7{
+    border: 1px solid black;
+    width: 1500px;
+height: 500px;
+} 

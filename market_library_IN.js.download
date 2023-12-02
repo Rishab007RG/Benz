@@ -1,0 +1,54 @@
+window.analytics_ow = window.analytics_ow || {};
+window.analytics_ow.target = window.analytics_ow.target || {};
+window.analytics_ow.target.setup = window.analytics_ow.setup || {};
+window.analytics_ow.target.func = window.analytics_ow.target.func || {};
+window.analytics_ow.personalisation = window.analytics_ow.personalisation || {};
+window.analytics_ow.personalisation.globalvars = window.analytics_ow.personalisation.globalvars || {};
+window.analytics_ow.target.func.returnTargetVars = () => {
+    const market_setup = {
+        "property": "dcac8600-8fde-ad66-a994-9aa8a1d0403f",
+        activated: true
+    }
+    window.analytics_ow.target.setup = market_setup;
+    return market_setup;
+}
+window.analytics_ow.target.func.getUseCaseTexts = (usecase) => {
+    const market_setup = {
+        multilanguage: false,
+        top_banner: {
+            api_true: 'Explore your dream Mercedes-Benz. <a class="target-generated-message-link" href="https://shop.mercedes-benz.com/en-in/shop/vehicle/srp?sort=relevance&assortment=vehicle">Shop online now.</a>',
+            api_false: 'Explore your dream Mercedes-Benz. <a class="target-generated-message-link" href="https://shop.mercedes-benz.com/en-in/shop/vehicle/srp?sort=relevance&assortment=vehicle">Shop online now.</a>'
+        },
+        crm2:{
+            image: '/content/india/en/passengercars/content-pool/marketing-pool/stages-personalization/_jcr_content/root/responsivegrid/simple_stage_copy_co_920059638.component.damq6.3284252786589.jpg/crm2.jpg',
+            headline: 'Interested in a new vehicle ?',
+            copy: 'Discover the exclusive offers.',
+            primaryBtn: 'Discover offers',
+        }
+    }; 
+
+    if (market_setup[usecase]) {
+        if (!market_setup.multilanguage) {
+            return market_setup[usecase]
+        } else {
+            return market_setup[usecase][window.analytics_ow.personalisation.globalvars.language]
+        }
+    } else {
+        const return_error = {
+            error: 'could not find use case in configfile'
+        }
+        return return_error;
+    }
+}
+analytics_ow.target.func.returnTargetVars();
+let current_application;
+for (let i = dataLayer_ow.length - 1; i >= 0; i--) {
+    if (dataLayer_ow[i].event === 'pageview') {
+        current_application = dataLayer_ow[i].application.id;
+        break;
+    }
+}
+window.analytics_ow.personalisation.globalvars.application = current_application;
+dataLayer_ow.push({
+    'event': 'target_market_setup_loaded',
+})

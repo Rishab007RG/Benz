@@ -1,0 +1,114 @@
+#L10{
+   
+   width: 1500px; height: 1000px;
+   position: relative;
+   top: 1510px;
+   
+}
+.l10{
+    
+ height: 50px;
+    font-size: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.l10a{
+    
+    width: 1500px; height: 1000px;
+  
+
+}
+.l10aIN{
+    
+    width: 1400px; height: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.l10aIN div{
+    
+    width: 233px; height: 300px;
+}
+.l10aIN2{
+   
+    width: 1400px; height: 300px;
+    margin-left: 51px;
+    display: flex;
+    justify-content: left;
+    position: relative;
+    top: -650px;
+}
+.l10aIN2 div{
+    
+    width: 233px; height: 300px;
+}
+.l10aIN3{
+    
+    width: 1400px; height: 70px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -650px;
+}
+.l10aa{
+    
+    width: 750px; height: 70px; 
+    display: flex;
+}
+.l10bb{
+    
+    width: 500px; height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.l10aa div{
+   
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+ 
+    width: 100px;height: 70px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.l10aIN4{
+   
+    width: 1400px; height: 70px;
+    margin-left: 50px;
+    display: flex;
+    justify-content:left;
+    position: relative;
+    top: -650px;
+}
+.l10aIN4 div{
+    
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#L10{
+       background-color: black;
+       color: white;
+}
+.logo{
+    color: aliceblue;
+}
+
+.l10aIN4{
+    
+}
+
+

@@ -1,0 +1,36 @@
+@import url("./benz4.css");
+#C1{
+    height: 60px;
+    border-bottom: white;
+    display: flex;
+    justify-content: left space-between;
+    align-items: center;
+    column-gap: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color: rgba(126, 106, 106, 0.899);
+    :hover {color: white;}
+    gap: 30px;
+   
+}
+.c1{
+border: black 1px solid;
+display: flex;
+position: relative;
+left: 50px;
+}
+
+#D1{
+border: 1px solid white;
+background-color: black;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 40px;
+
+}
+a:link{
+    
+    color: white;
+}

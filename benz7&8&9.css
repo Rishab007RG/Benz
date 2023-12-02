@@ -1,0 +1,178 @@
+@import url("./benz10.css");
+#H7{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    width: 500px;height: 100px;
+    font-size: 50px;
+    position: relative;
+    left: 100px; 
+    top: -10px;
+    color: rgba(128, 128, 128, 0.964);
+}
+#I7{
+border: 1px solid white;
+height: 800px;
+
+}
+#I7a{
+    border: 1px solid white;
+    height: 70px;
+}
+#I7A{
+    border: 1px solid white;
+   width: 1500px; height: 70px;  
+   
+}
+#I7B{
+    border: 1px solid white;
+    width: 1500px; height:716;  
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+   
+  
+    
+}
+.i7a{
+    border: 1px solid white;
+    width: 500px;height: 70px;
+    position: sticky;
+    left: 50px;top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.i1{
+    border: 1px solid white;
+    width: 150px;height: 70px;
+}
+.i7b{
+    border: 1px solid white;
+    width: 300px;height: 600px;
+    position: sticky;
+    left: 50px;
+    margin: 57px;
+    :hover{
+        color: aqua;
+    }
+}
+
+.i2{
+   
+    width: 300px;height: 60px;
+}
+.I7C{
+    
+width: 1200px;height: 700px;
+position: relative;
+top: 55px;
+left: -80px;
+display: flex;
+justify-content: center;
+
+}
+.i7c{
+   
+    width: 300px; height: 350px;
+}
+.i7c1,.i7c2,.i7c3{
+   
+    width: 300px;height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 35vh;
+    position: relative;
+    top: 40px;
+}
+
+.i7c1{
+   background-image: url("https://assets.oneweb.mercedes-benz.com/iris/iris.jpg?COSY-EU-100-1713d0VXq0W7qtyO67PobzIr3eWsrrCsdRRzwQZgk4ZbMw3SGtlKStsd2HtcUfp8qXGEuiBJ0l3IrOB2NzObApRA9I5ux4uQC31SrkzNwL6m7jA6ohKV5SQ%25vqCv%25yLRzAHYax75prH1KM1n8wvT3oiZUbXM4FGKuTg90hE6PDBSbSeWAtRtsd5%25QcUfCmfXGEvTVJ0lLOqOB2azEbApHYXI5usoIQC3UC1kzNGJum7j0hShKVBHM%25vq8cXyr%25kWfDpJJ0lCrnOIJRdAbQO%25nyI5ue5JQC3PgwkzN5z9m7jCeohKVzXh%25vq7XFyLRl36YaxHahrH18Bln8520R%256d9lo24MA4F0wOoZ1qggDu63FmZ3MkNulKlO1OsxACeqUx4Wg3yZ3&imgt=P27&bkgnd=9&pov=BE140&uni=cs&im=Crop,rect=(0,0,1450,750),gravity=Center;Resize,width=300");
+ }
+.i7c2{
+    background-image: url("https://assets.oneweb.mercedes-benz.com/iris/iris.png?COSY-EU-100-1713d0VXqaW7qtyO67PobzIr3eWsrrCsdRRzwQZg9pZbMw3SGtGyStsd2sDcUfp8qXGEunQJ0l36xOB2qM%25bApUnRI5uG5IQC30SpkzNHTwm7j871hKVi%25M%25vqmtjyLRhA6YaxU5drH1Gc%25n8w7OnoiZK%25NM4FvTQTg9LUV6PDGmhSc6o3jux%25%25vq8cXyr%25WNaYnyiXWrH1CBrn8w5zhoiZH6IM4F8mQTg9Pgn6PDe7oSeWsyhtsLV79MOuljcVL2vGdUdhcfWF002ROxEnfxXr1RjijhWh5DvaAFCDGp0xTfx&imgt=P27&bkgnd=9&pov=BE140&uni=cs&im=Crop,rect=(0,0,1450,750),gravity=Center;Resize,width=300");
+}
+.i7c3{
+    background-image: url("https://assets.oneweb.mercedes-benz.com/iris/iris.jpg?COSY-EU-100-1713d0VXqaSFqtyO67PobzIr3eWsrrCsdRRzwQZgk4ZbMw3SGtle9tsd2HVcUfpOkXGEubSJ0l3IrOB2NS1bApjI9I5uVKMQC31MrkzNwTVm7jZ7ZhKVFKh%25vq9vlyLRDG6YaxWbSrH1KHrn8wvVwoiZUbEM4FGSlTg90626PDBSqSeWzyRtsd7YNcUfKM6XGE4ySJ0lg0VOB2PWEbApe7yI5usKuQC3UvWkzNL6Sm%25kbFDZEttsdB%25ycJtj9GXOcAyjJ0l4DlOB2iMwbAp0ioI5uBeYQC3ASFkzNW2fm7jKeIhKVvsW%25vqLUayLRaARYaBEUVmMDZfrE8qYOfJxXr1RjiiF2MpwQ1pnIu2fzfXRXPq0Agjeq89iph1p&imgt=P27&bkgnd=9&pov=BE140&uni=cs&im=Crop,rect=(0,0,1450,750),gravity=Center;Resize,width=300");
+}
+
+.I7D{
+   
+    width: 900px;height: 350px;
+position: relative;
+top: 1301px;
+left: 447px;
+display: flex;
+justify-content: center;
+
+}
+
+.i7d{
+    
+    width: 300px; height: 350px;
+    font-size: 15px;
+    
+}
+.i7d1,.i7d2,.i7d3{
+   
+    width: 290px;height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 35vh;
+    position: relative;
+    top: 40px;
+} 
+.i7d1{
+    background-image: url("https://assets.oneweb.mercedes-benz.com/iris/iris.jpg?COSY-EU-100-1713d0VXqaYFqtyO67PobzIr3eWsrrCsdRRzwQZgk4ZbMw3SGtGyStsd2vtcUfp8qXGEubYJ0l36xOB2NS5bApj79I5uxoYQC31MTkzNwtnm7jA7mhKV50E%25vqCrlyLRzYXYaxPXWrH1eJtn8wsTfoiZUMXM4FGTfTg9ovO6PDC1DSeWznMtsd8htcUfiUNXGE49dJ0lgChOB2PzFbApe7lI5uKMTQmIJwF1d66PDGmhSc63ZstXSIh%25cUf886XGEHaVJ0lU0xOB2G8cbAp0koI5u9EQQC3zMTkzN7zbm7jKeDhKUWP3IrZxD%25WLkDLmuVS%25qjuaa1frEROqEyJlfDADSjSiNsG8u4NLwaEQqE&imgt=P27&bkgnd=9&pov=BE140&uni=cs&im=Crop,rect=(0,0,1450,750),gravity=Center;Resize,width=300");
+}
+.i7d2{
+    background-image: url("https://assets.oneweb.mercedes-benz.com/bbd/images/v1/4448/3/92/85982b548bb4c2e321f264d9359bd3bcd1f02.png?im=Crop,rect=(70,35,460,260);Resize,width=300");
+}
+.i7d3{
+    background-image: url("https://assets.oneweb.mercedes-benz.com/iris/iris.jpg?COSY-EU-100-1713d0VXqbSFqtyO67PobzIr3eWsrrCsdRRzwQZv9IZbMw3SGtlKStsd2HtcUfp80XGEubYJ0l36xOB2NS5bApj7bI5uVKDQC31MrkzNwTbm7jZ6vhKVFKE%25vq9UTyLRDGmYaxWbSrH1KJtn8wvOyoiZLbgM4Fa4MTg9HvZ6PD8LmSeWiXRtsd4YTcUfgrcXGEzymJ0l7IVOB2KQObApvdyI5uLfJQC3akOkzNHmdm7jQ71hKVP0W%25vqeIDyLRsYWYaxCXhrH1zHdn8w7QwoiZKq1M4FvyFTg9L6O6PDaSoSeWHthtsd8BQcUfiAWXGEWbSJ0lCrnOIJtR1q9ooiZeIQM6o2xgTSMsQ26PDL7mSeWvK%25tsdPvQcUfercXGE1nwJ0lB0lOB2A81bA4wHEcmqN1IwCr1vWwpnIu2fzzjFm93Su9Q6DF1s1n2nvligKfLlCVz9Xu9&imgt=P27&bkgnd=9&pov=BE140&uni=cs&im=Crop,rect=(0,0,1450,750),gravity=Center;Resize,width=300");
+}
+
+
+/* ...............J8................. */
+
+#J8{
+    border: 1px solid whitewhite;
+    width: 1500px;height: 50px;
+    position: relative;
+    top: 1305px;
+    left: 10px;
+}
+
+/* ..................K9..................... */
+
+#K9{
+    
+    height: 200px;
+    position: relative;
+    top: 1500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.k9{
+    
+    width: 250px; height: 110px;
+    display: inline-block;
+    justify-content: center;
+    align-items: last baseline;
+}
+.k9 h5{
+   
+   width: 200px;height: 20px;
+   display: flex;
+ align-items: center;
+}
+.k9 div{
+   
+    width: 200px;height: 50px;
+    display: inline;
+ }
